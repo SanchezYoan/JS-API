@@ -1,0 +1,16 @@
+{
+    "settingsSync.ignoredSettings": [
+      "emmet.includeLanguages",
+      "emmet.triggerExpansionOnTab"
+    ],
+    "settingsSync.ignoredExtensions": [],
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Cascadia code",
+    "terminal.integrated.fontFamily": "monospace",
+    "window.zoomLevel": 1
+  }
+  
