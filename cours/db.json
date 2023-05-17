@@ -1,5 +1,9 @@
 {
-    "posts": [
-        
-    ]
+  "posts": [
+    {
+      "pseudo": "hello",
+      "message": "yes",
+      "id": 1
+    }
+  ]
 }

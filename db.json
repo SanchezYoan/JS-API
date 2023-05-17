@@ -1,0 +1,164 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 3
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 4
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 5
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 6
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 7
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 8
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 9
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 10
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 11
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 12
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 13
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 14
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 15
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 16
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 17
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 18
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 19
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 20
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 21
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 22
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 23
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 24
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 25
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 26
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 27
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 28
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 29
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 30
+    },
+    {
+      "pseudo": "From Scratch",
+      "message": "Yo les gens !",
+      "id": 31
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
