@@ -1,23 +1,61 @@
 
-// .then((data) => console.log(data))
+const result = document.getElementById("result");
+const form = document.querySelector("form");
+const input = document.querySelector("input");
+let meals = [];
 
-fetch("data.json").then((res) => res.json());
-
-const myHeaders = new Headers();
-
-const init = {
-    method: "GET",
-    headers: myHeaders,
-    mode: "cors",
-}
-const post = {
-    method: "POST",
-    headers: myHeaders,
-    mode: "cors",
+async function fetchMeals(search) {
+    await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
+     .then((res) => res.json())
+     .then((data) => meals = data.meals);
+    
 }
 
-// fetch("data.json", init)
-//  .then((res) => console.log(res));
+function mealsDisplay() {
 
- // CRUD => Create (POST)? read (GET), update (PUT), Delete (DELETE)
+    if(meals === null) {
+        result.innerHTML = `<h2>Aucun résultat</h2>`
+    } else {
 
+        // meals.length = 12;
+        
+        result.innerHTML = meals
+        .map(
+            // map + {} => return
+            (meal) => {
+
+                let ingredients = [];
+
+                for (let i = 1; i < 21; i++) {
+                    if (meal[`strIngredient${i}`]) {
+                        let ingredient = meal[`strIngredient${i}`];
+                        let measure = meal[`strMeasure${i}`];
+
+                        ingredients.push(`<li>${ingredient} - ${measure}</li>`);
+                        
+                    }
+                }
+
+                return `
+                    <li class="card">
+                        <h2>${meal.strMeal}</h2>
+                        <p>${meal.strArea}</p>
+                        <img src=${meal.strMealThumb} alt="photo ${meal.strMeal}">
+                        <ul>${ingredients.join("")}</ul>
+                    </li>
+                    `;
+            }
+        )
+        .join("")
+    }
+};
+
+
+input.addEventListener("input", (e) => {
+    fetchMeals(e.target.value).then(() => mealsDisplay());
+});
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    mealsDisplay()
+});

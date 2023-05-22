@@ -132,8 +132,14 @@ const objet = {
 localStorage.user = JSON.stringify(objet);
 console.log(JSON.parse(localStorage.user));
 
+// --------------------------------
 // Session storage
 sessionStorage.dataSettings = "55px";
 // console.log(sessionStorage.dataSettings);
 sessionStorage.clear();
-// Cookie + notif
+
+// Cookie + notif : server => navigateur
+// Information pour l'authentification
+document.cookie = "username=FromScratch"
+// Bonne pratique
+document.cookie = "pseudo=FS;path=/;expires=Thu, 31 Dec 2023 23:59:59 GMT; secure; samesite";
